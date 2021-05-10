@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../assets/fonts/AvenirNextLTPro-Regular.otf');
+}
+
+body{
+  font-family: 'Avenir Next';
+  margin: 0;
+}
+
+.logo-react {
+  width: 35px;
+  margin-right: 25px;
+}
+
+
+.navbar {
+  background-color: grey;
+  padding: 10px;
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px 5px 0px 5px;
+}
+
+nav a:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
