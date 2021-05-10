@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import reactLogo from 'assets/images/react.svg';
 
 const Navbar = () => (
