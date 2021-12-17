@@ -1,18 +1,15 @@
+import './style/main.scss';
 import React from "react";
 import ReactDOM from 'react-dom';
-import './style/main.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from 'pages/Home'
-import About from 'pages/About'
-import Documentation from 'pages/Documentation'
-
-//custum import;
-//import Name from 'components/Name'
 import Navbar from 'components/Navbar';
-
+import Home from 'pages/Home'
+import Page1 from 'pages/Page1'
+import Page2 from 'pages/Page2'
 
 const App = () => {
 
+  console.log("Welcome to the React template made by Nekå ✨");
 
   return (
     <div>
@@ -23,11 +20,11 @@ const App = () => {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/about">
-              <About />
+            <Route path="/page-1">
+              <Page1 />
             </Route>
-            <Route path="/documentation">
-              <Documentation />
+            <Route path="/page-2">
+              <Page2 />
             </Route>
           </Switch>
         </main>

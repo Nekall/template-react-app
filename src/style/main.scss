@@ -1,31 +1,28 @@
-@font-face {
-  font-family: 'Avenir Next';
-  src: url('../assets/fonts/AvenirNextLTPro-Regular.otf');
-}
+@import "colors.scss";
+@import "fonts.scss";
 
 body{
-  font-family: 'Avenir Next';
+  font-family: "Avenir Next";
   margin: 0;
+  padding: 0;
 }
 
-.logo-react {
+.logo-react{
   width: 35px;
   margin-right: 25px;
 }
 
-
-.navbar {
-  background-color: grey;
+.navbar{
+  background-color: $color-grey;
   padding: 10px;
 }
 
 nav a{
-  color: black;
+  color: $color-black;
   font-weight: bold;
   font-size: 20px;
-  margin: 0px 5px 0px 5px;
-}
-
-nav a:hover{
-  color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+  &:hover{
+    color: $dark-grey;
+  }
 }
