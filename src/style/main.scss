@@ -1,28 +1,9 @@
 @import "colors.scss";
 @import "fonts.scss";
 
-body{
+body {
   font-family: "Avenir Next";
   margin: 0;
   padding: 0;
-}
-
-.logo-react{
-  width: 35px;
-  margin-right: 25px;
-}
-
-.navbar{
-  background-color: $color-grey;
-  padding: 10px;
-}
-
-nav a{
-  color: $color-black;
-  font-weight: bold;
-  font-size: 20px;
-  margin: 0 5px;
-  &:hover{
-    color: $dark-grey;
-  }
+  background-color: #2c2f33;
 }
