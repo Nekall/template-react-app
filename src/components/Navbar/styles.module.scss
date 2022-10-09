@@ -1,0 +1,28 @@
+@import "../../style/colors.scss";
+
+.__navbar {
+  background-color: $color-grey;
+  padding: 10px;
+
+  .__logo_react {
+    width: 35px;
+    margin: 0 10px;
+    filter: invert(100%) sepia(11%) saturate(6138%) hue-rotate(180deg)
+      brightness(107%) contrast(116%);
+    animation: rotate 5s linear infinite;
+  }
+
+  a {
+    color: $color-white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 5px;
+    &:hover {
+      color: $light-grey;
+    }
+  }
+}
+
+@keyframes rotate{
+  to{ transform: rotate(360deg); }
+}
